@@ -15,4 +15,10 @@ import java.util.ArrayList;
 public class ReportePolicia extends Reporte{
     double promedioEdades;
     ArrayList<Policia> lista;
+    
+    public ReportePolicia(double pE, ArrayList<Policia> l) {
+        promedioEdades = pE;
+        lista = l;
+    }
+    
 }

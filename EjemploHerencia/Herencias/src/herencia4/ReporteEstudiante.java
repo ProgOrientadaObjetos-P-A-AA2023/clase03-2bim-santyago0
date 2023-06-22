@@ -15,4 +15,9 @@ public class ReporteEstudiante extends Reporte {
     double promedioMatriculas;
     ArrayList<Estudiante> lista;
     
+    public ReporteEstudiante(double pM, ArrayList<Estudiante> l) {
+        promedioMatriculas = pM;
+        lista = l;
+    }
+    
 }
